@@ -25,6 +25,8 @@ import ProtectedRoute from './protectedRoute/ProtectedRoute';
 import Quotes from './quotes/Quotes';
 import StoryCheckNew from './storyCheckNew/StoryCheckNew';
 import Collections from './collections/Collections';
+import AuthCollections from './authCollections/AuthCollections';
+
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +36,7 @@ function App() {
         <Route exact path='/storyCheck' component={StoryCheckNew} />
         <Route exact path='/testimony/:storyId' component={Testimony} />
         <Route exact path='/collections' component={Collections} />
+        <Route exact path='/authCollections' component={AuthCollections} />
         <Route exact path='/textEdit' component={TextEdit} />
         <ProtectedRoute exact path='/storyUpload' component={StoryUpload} />
         <Route exact path='/unauthorized' component={UnAuthorizedPage}/>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Rubik:wght@700&display=swap');
+
+.AuthCollections *img {
+    width: 100%;
+}
+
+.AuthCollections {
+    background-color: white;
+    min-width: 100vw;
+    margin: 5px auto;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    padding: 25px auto 25px auto;
+}
+
+.AuthCollections .navigation {
+    display: block;
+}
+
+.AuthCollections .categoryCard {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 0 1 10rem;
+    width: 10.2rem;
+    height: 7.125rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    margin: 3px auto 0px auto;
+}
+
+.AuthCollections .titleImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AuthCollections .titleText {
+    background-color: #105e7d;
+    opacity: 80%;
+    height: 1.82rem;
+    width: 100%;
+    margin: auto 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.AuthCollections .titleText h6 {
+    color: white;
+    text-align: center;
+    line-height: 200%;
+    font-size: 0.875rem;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+}
